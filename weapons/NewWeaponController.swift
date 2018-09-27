@@ -7,12 +7,33 @@
 //
 
 import UIKit
-
 class NewWeaponController: UITableViewController {
-
+    
+    @IBOutlet weak var textFieldMv: UITextField!
+    @IBAction func tapStepper(_ sender: UIStepper) {
+        textFieldMv.text = Int(exactly: sender.value)!.description
+    }
+    var origin = [Origin]()
+    var specs: WeaponSpecs!
+    
+    func loadJson(){
+        let coder = JSONDecoder()
+        
+        do{
+            let url1 = Bundle.main.url(forResource: "origin", withExtension: "json")
+            let url2 = Bundle.main.url(forResource: "weaponSpecs", withExtension: "json")
+            let data1 = try Data(contentsOf: url1!)
+            let data2 = try Data(contentsOf: url2!)
+            origin = try coder.decode([Origin].self, from: data1)
+            specs = try coder.decode(WeaponSpecs.self, from: data2)
+            print("成功")
+        } catch {
+            print("解码错误：",error)
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        loadJson()
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -24,18 +45,8 @@ class NewWeaponController: UITableViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
     // MARK: - Table view data source
-
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
-    }
-
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
-    }
 
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
