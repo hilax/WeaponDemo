@@ -7,21 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B046AF320B7861B008FC22F /* NaviExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B046AF220B7861B008FC22F /* NaviExt.swift */; };
+		5B046AF520B793F7008FC22F /* RateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B046AF420B793F7008FC22F /* RateController.swift */; };
 		5B2754AC20B3AEC5001BDA49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2754AB20B3AEC5001BDA49 /* AppDelegate.swift */; };
-		5B2754AE20B3AEC5001BDA49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2754AD20B3AEC5001BDA49 /* ViewController.swift */; };
 		5B2754B120B3AEC5001BDA49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2754AF20B3AEC5001BDA49 /* Main.storyboard */; };
 		5B2754B320B3AEC7001BDA49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B2754B220B3AEC7001BDA49 /* Assets.xcassets */; };
 		5B2754B620B3AEC7001BDA49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2754B420B3AEC7001BDA49 /* LaunchScreen.storyboard */; };
+		5B2754BE20B3C5A9001BDA49 /* WeaponsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2754BD20B3C5A9001BDA49 /* WeaponsTableViewController.swift */; };
+		5B2754C020B3D3F6001BDA49 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2754BF20B3D3F6001BDA49 /* CardCell.swift */; };
+		5B39082920B3DFB700C30B88 /* UIViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B39082820B3DFB700C30B88 /* UIViewHelper.swift */; };
+		5B6CCF0920B8F14200553E1D /* weapons.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B6CCF0820B8F14100553E1D /* weapons.json */; };
+		5B6CCF0C20B8FE3100553E1D /* origin.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B6CCF0A20B8FE3100553E1D /* origin.json */; };
+		5B6CCF0D20B8FE3100553E1D /* weaponSpecs.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B6CCF0B20B8FE3100553E1D /* weaponSpecs.json */; };
+		5B6CCF1120B9763F00553E1D /* NewWeaponController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6CCF1020B9763F00553E1D /* NewWeaponController.swift */; };
+		5B6CCF1320B97CB400553E1D /* pickerViewFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6CCF1220B97CB400553E1D /* pickerViewFill.swift */; };
+		5B92667020B6F530004BABC3 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B92666F20B6F530004BABC3 /* DetailTableViewController.swift */; };
+		5BD59EC220B6375300335469 /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD59EC120B6375300335469 /* Weapon.swift */; };
+		5BDF430820B9A54600AEFC57 /* DetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDF430720B9A54600AEFC57 /* DetailCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B046AF220B7861B008FC22F /* NaviExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviExt.swift; sourceTree = "<group>"; };
+		5B046AF420B793F7008FC22F /* RateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateController.swift; sourceTree = "<group>"; };
 		5B2754A820B3AEC5001BDA49 /* weapons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weapons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B2754AB20B3AEC5001BDA49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B2754AD20B3AEC5001BDA49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5B2754B020B3AEC5001BDA49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B2754B220B3AEC7001BDA49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B2754B520B3AEC7001BDA49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B2754B720B3AEC7001BDA49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B2754BD20B3C5A9001BDA49 /* WeaponsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponsTableViewController.swift; sourceTree = "<group>"; };
+		5B2754BF20B3D3F6001BDA49 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		5B39082820B3DFB700C30B88 /* UIViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewHelper.swift; sourceTree = "<group>"; };
+		5B6CCF0820B8F14100553E1D /* weapons.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weapons.json; sourceTree = "<group>"; };
+		5B6CCF0A20B8FE3100553E1D /* origin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = origin.json; sourceTree = "<group>"; };
+		5B6CCF0B20B8FE3100553E1D /* weaponSpecs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weaponSpecs.json; sourceTree = "<group>"; };
+		5B6CCF1020B9763F00553E1D /* NewWeaponController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWeaponController.swift; sourceTree = "<group>"; };
+		5B6CCF1220B97CB400553E1D /* pickerViewFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pickerViewFill.swift; sourceTree = "<group>"; };
+		5B92666F20B6F530004BABC3 /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		5BD59EC120B6375300335469 /* Weapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
+		5BDF430720B9A54600AEFC57 /* DetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +79,20 @@
 			isa = PBXGroup;
 			children = (
 				5B2754AB20B3AEC5001BDA49 /* AppDelegate.swift */,
-				5B2754AD20B3AEC5001BDA49 /* ViewController.swift */,
+				5B2754BD20B3C5A9001BDA49 /* WeaponsTableViewController.swift */,
 				5B2754AF20B3AEC5001BDA49 /* Main.storyboard */,
+				5B6CCF1020B9763F00553E1D /* NewWeaponController.swift */,
+				5B6CCF1220B97CB400553E1D /* pickerViewFill.swift */,
+				5B046AF420B793F7008FC22F /* RateController.swift */,
+				5B046AF220B7861B008FC22F /* NaviExt.swift */,
+				5B92666F20B6F530004BABC3 /* DetailTableViewController.swift */,
+				5B39082820B3DFB700C30B88 /* UIViewHelper.swift */,
+				5B6CCF0A20B8FE3100553E1D /* origin.json */,
+				5B6CCF0B20B8FE3100553E1D /* weaponSpecs.json */,
+				5B6CCF0820B8F14100553E1D /* weapons.json */,
+				5BDF430720B9A54600AEFC57 /* DetailCell.swift */,
+				5B2754BF20B3D3F6001BDA49 /* CardCell.swift */,
+				5BD59EC120B6375300335469 /* Weapon.swift */,
 				5B2754B220B3AEC7001BDA49 /* Assets.xcassets */,
 				5B2754B420B3AEC7001BDA49 /* LaunchScreen.storyboard */,
 				5B2754B720B3AEC7001BDA49 /* Info.plist */,
@@ -122,7 +158,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B6CCF0D20B8FE3100553E1D /* weaponSpecs.json in Resources */,
 				5B2754B620B3AEC7001BDA49 /* LaunchScreen.storyboard in Resources */,
+				5B6CCF0920B8F14200553E1D /* weapons.json in Resources */,
+				5B6CCF0C20B8FE3100553E1D /* origin.json in Resources */,
 				5B2754B320B3AEC7001BDA49 /* Assets.xcassets in Resources */,
 				5B2754B120B3AEC5001BDA49 /* Main.storyboard in Resources */,
 			);
@@ -135,8 +174,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B2754AE20B3AEC5001BDA49 /* ViewController.swift in Sources */,
+				5B92667020B6F530004BABC3 /* DetailTableViewController.swift in Sources */,
+				5BDF430820B9A54600AEFC57 /* DetailCell.swift in Sources */,
+				5B6CCF1120B9763F00553E1D /* NewWeaponController.swift in Sources */,
+				5B046AF520B793F7008FC22F /* RateController.swift in Sources */,
+				5B6CCF1320B97CB400553E1D /* pickerViewFill.swift in Sources */,
+				5B2754BE20B3C5A9001BDA49 /* WeaponsTableViewController.swift in Sources */,
 				5B2754AC20B3AEC5001BDA49 /* AppDelegate.swift in Sources */,
+				5B39082920B3DFB700C30B88 /* UIViewHelper.swift in Sources */,
+				5B2754C020B3D3F6001BDA49 /* CardCell.swift in Sources */,
+				5B046AF320B7861B008FC22F /* NaviExt.swift in Sources */,
+				5BD59EC220B6375300335469 /* Weapon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,14 +328,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RLBYA2PBW4;
 				INFOPLIST_FILE = weapons/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = neusoft.weapons;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neusoft.weapons;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,14 +349,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RLBYA2PBW4;
+				"DEVELOPMENT_TEAM[sdk=*]" = RLBYA2PBW4;
 				INFOPLIST_FILE = weapons/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = neusoft.weapons;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neusoft.weapons;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
